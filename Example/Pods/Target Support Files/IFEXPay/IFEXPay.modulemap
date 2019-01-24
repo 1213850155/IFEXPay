@@ -1,0 +1,6 @@
+framework module IFEXPay {
+  umbrella header "IFEXPay-umbrella.h"
+
+  export *
+  module * { export * }
+}

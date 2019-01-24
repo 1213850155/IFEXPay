@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'IFEXPay_Example' do
+  pod 'IFEXPay', :path => '../'
+
+  target 'IFEXPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

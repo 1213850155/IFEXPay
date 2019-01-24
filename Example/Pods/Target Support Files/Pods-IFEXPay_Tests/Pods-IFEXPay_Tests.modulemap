@@ -1,0 +1,6 @@
+framework module Pods_IFEXPay_Tests {
+  umbrella header "Pods-IFEXPay_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

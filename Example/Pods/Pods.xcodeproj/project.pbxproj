@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1888B4D7F9B073B009D7271B870C0170 /* Pods-IFEXPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 860DAB0C2BB038A4E4E28491117DBD0B /* Pods-IFEXPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F520B769353F0DE238B0E71DFFBFCD2 /* Pods-IFEXPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F27F1032B6DB9218BCD0266F7CB9DB /* Pods-IFEXPay_Example-dummy.m */; };
+		62C5645C23F11C5A86F7B400D6C96827 /* IFEXPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE8E64C28FD90437BF063BB1C8F04F8 /* IFEXPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C349B9CF7B3B5D40A4A92B55623798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		6BBE9743B7B4CF32689CADD65439533C /* IFEXPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE6C99D43F22ADE27B295706B308A5 /* IFEXPay-dummy.m */; };
+		87F6C85B5FF7B5F7D91759CF323496E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		ABB8AF243976E569BBC7F399F6927E74 /* Pods-IFEXPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F4EAD7A77631082A23A50A1D01B8C /* Pods-IFEXPay_Tests-dummy.m */; };
+		BC240CFA5DF0B54DF0579EEAE3CBD945 /* Pods-IFEXPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9D097159F1478BFCDE07A14D7D32B1 /* Pods-IFEXPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09F876B9EB6D8F8F1491AAA129E6E86 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A40ABBD839F3D7BD39E362102B9FC6A /* ReplaceMe.m */; };
+		F6863439D5DFF360D68245007E6054CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272C9A52CDD7EBE847A8255C4DD7845F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772629C08417906E0074F1A63B2CA887;
+			remoteInfo = IFEXPay;
+		};
+		AD9648B92F0B39DD95D7ACB7B24E22F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B51352771390A303B8868EED4664EA;
+			remoteInfo = "Pods-IFEXPay_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E2212BDDFC313BCAFD677873D2677F0 /* IFEXPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFEXPay.xcconfig; sourceTree = "<group>"; };
+		218959BE374CF795605F1AE3CDF97FDE /* Pods-IFEXPay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFEXPay_Tests-Info.plist"; sourceTree = "<group>"; };
+		2EDF9FCCD83CFF17C12D01D5B581C2FE /* Pods-IFEXPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IFEXPay_Example.modulemap"; sourceTree = "<group>"; };
+		39B9A2DD9DAF88DDBAF4D903173277EC /* Pods-IFEXPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFEXPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3EAABC685AB2AF48A677AD70FAB0A592 /* IFEXPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IFEXPay.modulemap; sourceTree = "<group>"; };
+		3EC42C0469CDEC2DADDADDBC30034874 /* Pods-IFEXPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFEXPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4457842A3CE9A67C8AA909FCCCB9F461 /* Pods-IFEXPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFEXPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A40ABBD839F3D7BD39E362102B9FC6A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = IFEXPay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		594FF6545BB85280C1C112EDD97F4E9F /* Pods-IFEXPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFEXPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BB2FC9C5EFE75BFE84E77CE703C21FB /* Pods-IFEXPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IFEXPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6321BD39034D39E40664C5AD1F6F1FEC /* IFEXPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFEXPay-prefix.pch"; sourceTree = "<group>"; };
+		6DEB568879DE824E924188497C08F7A1 /* Pods_IFEXPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IFEXPay_Tests.framework; path = "Pods-IFEXPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE8E64C28FD90437BF063BB1C8F04F8 /* IFEXPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFEXPay-umbrella.h"; sourceTree = "<group>"; };
+		772639921F90EA8D98D781D66AB6E0A4 /* Pods-IFEXPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFEXPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		78AE6C99D43F22ADE27B295706B308A5 /* IFEXPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFEXPay-dummy.m"; sourceTree = "<group>"; };
+		7CFD593C232F44AF163B7050B48EFD63 /* Pods_IFEXPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IFEXPay_Example.framework; path = "Pods-IFEXPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860DAB0C2BB038A4E4E28491117DBD0B /* Pods-IFEXPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IFEXPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9187604D8C6914D4644FFF29B3D6B530 /* Pods-IFEXPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFEXPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B1F4EAD7A77631082A23A50A1D01B8C /* Pods-IFEXPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFEXPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		ACD3191F90FB6066D57C1CB46E52040E /* IFEXPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IFEXPay.framework; path = IFEXPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BECEA13CE8FEBBD8E4193F02F8A12021 /* Pods-IFEXPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IFEXPay_Tests.modulemap"; sourceTree = "<group>"; };
+		C3D42224A7EBF870DB305E578D912391 /* IFEXPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IFEXPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C546B0345B323FDF8694B7F7D13A5182 /* Pods-IFEXPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFEXPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C99742C32CAB3BF373261AA76B457674 /* Pods-IFEXPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFEXPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CC7D2BF5246C2CBDF3C2F14BA932CFC1 /* Pods-IFEXPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFEXPay_Example-Info.plist"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD9D097159F1478BFCDE07A14D7D32B1 /* Pods-IFEXPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IFEXPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		E4F27F1032B6DB9218BCD0266F7CB9DB /* Pods-IFEXPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFEXPay_Example-dummy.m"; sourceTree = "<group>"; };
+		E8C128693A8C8E1C3FB245820D414691 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FF439A66624851154BFDC695F4BC4ABB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FF79BF1FAED53A5231B1D6A01E2A71B8 /* IFEXPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IFEXPay-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		906575514F9DFD49FA88FDB34072FDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C349B9CF7B3B5D40A4A92B55623798 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B4B1EF5F89A137E1A90747321A5122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6863439D5DFF360D68245007E6054CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BF4A4A344A6F239C1E19CA544C65AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F6C85B5FF7B5F7D91759CF323496E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020717C049805A8B65010805868CA4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3191F90FB6066D57C1CB46E52040E /* IFEXPay.framework */,
+				7CFD593C232F44AF163B7050B48EFD63 /* Pods_IFEXPay_Example.framework */,
+				6DEB568879DE824E924188497C08F7A1 /* Pods_IFEXPay_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		062919C305DE57CBF58049A010465E47 /* Pods-IFEXPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BECEA13CE8FEBBD8E4193F02F8A12021 /* Pods-IFEXPay_Tests.modulemap */,
+				4457842A3CE9A67C8AA909FCCCB9F461 /* Pods-IFEXPay_Tests-acknowledgements.markdown */,
+				C546B0345B323FDF8694B7F7D13A5182 /* Pods-IFEXPay_Tests-acknowledgements.plist */,
+				9B1F4EAD7A77631082A23A50A1D01B8C /* Pods-IFEXPay_Tests-dummy.m */,
+				218959BE374CF795605F1AE3CDF97FDE /* Pods-IFEXPay_Tests-Info.plist */,
+				860DAB0C2BB038A4E4E28491117DBD0B /* Pods-IFEXPay_Tests-umbrella.h */,
+				772639921F90EA8D98D781D66AB6E0A4 /* Pods-IFEXPay_Tests.debug.xcconfig */,
+				3EC42C0469CDEC2DADDADDBC30034874 /* Pods-IFEXPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-IFEXPay_Tests";
+			path = "Target Support Files/Pods-IFEXPay_Tests";
+			sourceTree = "<group>";
+		};
+		2EE1DFCDBCEE930116C5BDC7130135A3 /* Pods-IFEXPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF9FCCD83CFF17C12D01D5B581C2FE /* Pods-IFEXPay_Example.modulemap */,
+				9187604D8C6914D4644FFF29B3D6B530 /* Pods-IFEXPay_Example-acknowledgements.markdown */,
+				594FF6545BB85280C1C112EDD97F4E9F /* Pods-IFEXPay_Example-acknowledgements.plist */,
+				E4F27F1032B6DB9218BCD0266F7CB9DB /* Pods-IFEXPay_Example-dummy.m */,
+				5BB2FC9C5EFE75BFE84E77CE703C21FB /* Pods-IFEXPay_Example-frameworks.sh */,
+				CC7D2BF5246C2CBDF3C2F14BA932CFC1 /* Pods-IFEXPay_Example-Info.plist */,
+				DD9D097159F1478BFCDE07A14D7D32B1 /* Pods-IFEXPay_Example-umbrella.h */,
+				39B9A2DD9DAF88DDBAF4D903173277EC /* Pods-IFEXPay_Example.debug.xcconfig */,
+				C99742C32CAB3BF373261AA76B457674 /* Pods-IFEXPay_Example.release.xcconfig */,
+			);
+			name = "Pods-IFEXPay_Example";
+			path = "Target Support Files/Pods-IFEXPay_Example";
+			sourceTree = "<group>";
+		};
+		34CE3FF1E545D2B9D4D2B6D439C06561 /* IFEXPay */ = {
+			isa = PBXGroup;
+			children = (
+				4A40ABBD839F3D7BD39E362102B9FC6A /* ReplaceMe.m */,
+				61CF7669DFE5D9393D71A8F5F90A2348 /* Pod */,
+				C041C847E0FE2F9BCC15BC3D9D8BA7FB /* Support Files */,
+			);
+			name = IFEXPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		582CAA88C4AE88E2B7FE6EDA6B646CA6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE1DFCDBCEE930116C5BDC7130135A3 /* Pods-IFEXPay_Example */,
+				062919C305DE57CBF58049A010465E47 /* Pods-IFEXPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		61CF7669DFE5D9393D71A8F5F90A2348 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C3D42224A7EBF870DB305E578D912391 /* IFEXPay.podspec */,
+				E8C128693A8C8E1C3FB245820D414691 /* LICENSE */,
+				FF439A66624851154BFDC695F4BC4ABB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7023FAEE06A4D7A27674D57F2DC28495 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34CE3FF1E545D2B9D4D2B6D439C06561 /* IFEXPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				7023FAEE06A4D7A27674D57F2DC28495 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				020717C049805A8B65010805868CA4A9 /* Products */,
+				582CAA88C4AE88E2B7FE6EDA6B646CA6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C041C847E0FE2F9BCC15BC3D9D8BA7FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EAABC685AB2AF48A677AD70FAB0A592 /* IFEXPay.modulemap */,
+				1E2212BDDFC313BCAFD677873D2677F0 /* IFEXPay.xcconfig */,
+				78AE6C99D43F22ADE27B295706B308A5 /* IFEXPay-dummy.m */,
+				FF79BF1FAED53A5231B1D6A01E2A71B8 /* IFEXPay-Info.plist */,
+				6321BD39034D39E40664C5AD1F6F1FEC /* IFEXPay-prefix.pch */,
+				6FE8E64C28FD90437BF063BB1C8F04F8 /* IFEXPay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IFEXPay";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A087AAE5D645614E824C8F5FAC82028 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC240CFA5DF0B54DF0579EEAE3CBD945 /* Pods-IFEXPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7639BAFFA851F08CB6573898D91602B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C5645C23F11C5A86F7B400D6C96827 /* IFEXPay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29710454AE481EE0E1ED266F27C5DD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1888B4D7F9B073B009D7271B870C0170 /* Pods-IFEXPay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		772629C08417906E0074F1A63B2CA887 /* IFEXPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2912AD75AE0B40759BFE32104EEE75D5 /* Build configuration list for PBXNativeTarget "IFEXPay" */;
+			buildPhases = (
+				7639BAFFA851F08CB6573898D91602B5 /* Headers */,
+				60FB3C4667451E504CC0F44B458F3459 /* Sources */,
+				A2B4B1EF5F89A137E1A90747321A5122 /* Frameworks */,
+				9FC90704F21DFBEA2D4EC3FCEA19A3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFEXPay;
+			productName = IFEXPay;
+			productReference = ACD3191F90FB6066D57C1CB46E52040E /* IFEXPay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94B51352771390A303B8868EED4664EA /* Pods-IFEXPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F179BCFA33E3128C261D28A842D0CAC /* Build configuration list for PBXNativeTarget "Pods-IFEXPay_Example" */;
+			buildPhases = (
+				5A087AAE5D645614E824C8F5FAC82028 /* Headers */,
+				8403386F2487F8BD69F7B593D9549DDF /* Sources */,
+				906575514F9DFD49FA88FDB34072FDA7 /* Frameworks */,
+				9608A623F77621555F09B8412B8FC056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D3BE5C724A9E3C06CEF7E6EFDA4085 /* PBXTargetDependency */,
+			);
+			name = "Pods-IFEXPay_Example";
+			productName = "Pods-IFEXPay_Example";
+			productReference = 7CFD593C232F44AF163B7050B48EFD63 /* Pods_IFEXPay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC46252BDFBBAD645E2F57751CB586E6 /* Pods-IFEXPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA38D836F99A9D1F411AFE17BC5CB2C /* Build configuration list for PBXNativeTarget "Pods-IFEXPay_Tests" */;
+			buildPhases = (
+				E29710454AE481EE0E1ED266F27C5DD1 /* Headers */,
+				122713A9043CBA20B1BC5D9AA38E9163 /* Sources */,
+				A2BF4A4A344A6F239C1E19CA544C65AE /* Frameworks */,
+				CC2FFEB7696A0D01FDD9FC14EC20B741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B927B1EF48782F4C0BA179AE427A259 /* PBXTargetDependency */,
+			);
+			name = "Pods-IFEXPay_Tests";
+			productName = "Pods-IFEXPay_Tests";
+			productReference = 6DEB568879DE824E924188497C08F7A1 /* Pods_IFEXPay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 020717C049805A8B65010805868CA4A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				772629C08417906E0074F1A63B2CA887 /* IFEXPay */,
+				94B51352771390A303B8868EED4664EA /* Pods-IFEXPay_Example */,
+				BC46252BDFBBAD645E2F57751CB586E6 /* Pods-IFEXPay_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9608A623F77621555F09B8412B8FC056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC90704F21DFBEA2D4EC3FCEA19A3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2FFEB7696A0D01FDD9FC14EC20B741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		122713A9043CBA20B1BC5D9AA38E9163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8AF243976E569BBC7F399F6927E74 /* Pods-IFEXPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FB3C4667451E504CC0F44B458F3459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBE9743B7B4CF32689CADD65439533C /* IFEXPay-dummy.m in Sources */,
+				F09F876B9EB6D8F8F1491AAA129E6E86 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403386F2487F8BD69F7B593D9549DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F520B769353F0DE238B0E71DFFBFCD2 /* Pods-IFEXPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87D3BE5C724A9E3C06CEF7E6EFDA4085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IFEXPay;
+			target = 772629C08417906E0074F1A63B2CA887 /* IFEXPay */;
+			targetProxy = 272C9A52CDD7EBE847A8255C4DD7845F /* PBXContainerItemProxy */;
+		};
+		8B927B1EF48782F4C0BA179AE427A259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IFEXPay_Example";
+			target = 94B51352771390A303B8868EED4664EA /* Pods-IFEXPay_Example */;
+			targetProxy = AD9648B92F0B39DD95D7ACB7B24E22F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05E93C5A57B171BB9A58548D45170A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2212BDDFC313BCAFD677873D2677F0 /* IFEXPay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IFEXPay/IFEXPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IFEXPay/IFEXPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IFEXPay/IFEXPay.modulemap";
+				PRODUCT_MODULE_NAME = IFEXPay;
+				PRODUCT_NAME = IFEXPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F98DFDDCDF73FECED6B2024A45CFDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B9A2DD9DAF88DDBAF4D903173277EC /* Pods-IFEXPay_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IFEXPay_Example/Pods-IFEXPay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IFEXPay_Example/Pods-IFEXPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E40F8A1073865F8198697557229E503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99742C32CAB3BF373261AA76B457674 /* Pods-IFEXPay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IFEXPay_Example/Pods-IFEXPay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IFEXPay_Example/Pods-IFEXPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BECD752C378C4705591F6D1B87806F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC42C0469CDEC2DADDADDBC30034874 /* Pods-IFEXPay_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IFEXPay_Tests/Pods-IFEXPay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IFEXPay_Tests/Pods-IFEXPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A06F720C2B680D498F5C6B21993D2511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2212BDDFC313BCAFD677873D2677F0 /* IFEXPay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IFEXPay/IFEXPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IFEXPay/IFEXPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IFEXPay/IFEXPay.modulemap";
+				PRODUCT_MODULE_NAME = IFEXPay;
+				PRODUCT_NAME = IFEXPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B934BF6ED21CDA9FBF33F4CE8E3348D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772639921F90EA8D98D781D66AB6E0A4 /* Pods-IFEXPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IFEXPay_Tests/Pods-IFEXPay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IFEXPay_Tests/Pods-IFEXPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2912AD75AE0B40759BFE32104EEE75D5 /* Build configuration list for PBXNativeTarget "IFEXPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E93C5A57B171BB9A58548D45170A9D /* Debug */,
+				A06F720C2B680D498F5C6B21993D2511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F179BCFA33E3128C261D28A842D0CAC /* Build configuration list for PBXNativeTarget "Pods-IFEXPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F98DFDDCDF73FECED6B2024A45CFDA2 /* Debug */,
+				1E40F8A1073865F8198697557229E503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA38D836F99A9D1F411AFE17BC5CB2C /* Build configuration list for PBXNativeTarget "Pods-IFEXPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B934BF6ED21CDA9FBF33F4CE8E3348D5 /* Debug */,
+				2BECD752C378C4705591F6D1B87806F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
